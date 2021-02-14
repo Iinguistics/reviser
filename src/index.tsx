@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom';
 import { useState, useEffect, useRef } from 'react';
 import * as esbuild from 'esbuild-wasm';
 import { unpkgPathPlugin } from './plugins/unpkg-path-plugin';
-import { fetchPlugin } from './plugins/fetch-plugin'
+import { fetchPlugin } from './plugins/fetch-plugin';
 
 const App = ()=>{
     // acts as a component var instead of doing a piece of state, we can hold values in this useRef, ref.current
